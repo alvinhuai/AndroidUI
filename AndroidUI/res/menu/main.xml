@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lichengf.simulatewechat.MainActivity" >
+
+    <item  
+        android:id="@+id/id_action_add"  
+        android:icon="@drawable/ic_action_add"  
+        android:showAsAction="always"  
+        android:title="@string/action_Add">  
+    </item>
+        
+    <item
+        android:id="@+id/id_action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/action_update"/>
+    
+    <item  
+        android:id="@+id/id_action_off"
+        android:icon="@drawable/ic_action_off"  
+        android:showAsAction="always"  
+        android:title="@string/action_off"/>  
+
+    <item  
+        android:id="@+id/id_action_Love"  
+        android:icon="@drawable/ic_action_love"  
+        android:showAsAction="always"  
+        android:title="@string/action_Love"/>
+
+</menu>
