@@ -8,5 +8,17 @@
     <string name="action_off">Off</string>
     <string name="action_Love">Love</string>
     <string name="action_Add">Add</string>
+    
+<!--add by lichengfeng custom dialer view @20160411 begin -->     
+    <string name="description_image_button_one">one</string>
+    <string name="description_image_button_two">two</string>
+    <string name="description_image_button_three">three</string>
+    <string name="description_image_button_four">four</string>
+    <string name="description_image_button_five">five</string>
+    <string name="description_image_button_six">six</string>
+    <string name="description_image_button_seven">seven</string>
+    <string name="description_image_button_eight">eight</string>
+    <string name="description_image_button_nine">nine</string>
+<!--add by lichengfeng custom dialer view @20160411 end -->     
 
 </resources>

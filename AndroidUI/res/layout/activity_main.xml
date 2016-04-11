@@ -9,8 +9,114 @@
     tools:context="com.lichengf.popwindowstest.MainActivity" >
 
     <TextView
+        android:id="@+id/hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
+<!--add by lichengfeng custom dialer view @20160411 begin -->    
+    <TableLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:showDividers="beginning|middle|end"
+        android:layout_below="@id/hello_world"
+        android:divider="@drawable/keyborad_bg_normal"
+        android:dividerHeight="1px"
+        >
+      	<TableRow
+      	    android:layout_height="0px"
+      	    android:layout_weight="1">
+      	    <ImageButton 
+      	        android:id="@+id/one"
+      	        style="@style/DialPadButtonStyle"
+      	        android:src="@drawable/dial_keyborad_number_1_selector"
+      	        android:contentDescription="@string/description_image_button_one"
+      	        />
+      	    <View 
+      	        android:layout_height="match_parent"
+      	        android:layout_width="1px"
+      	        android:background="@drawable/keyborad_bg_normal"/>
+      	     <ImageButton 
+      	        android:id="@+id/two"
+      	        style="@style/DialPadButtonStyle"
+      	        android:src="@drawable/dial_keyborad_number_2_selector"
+      	        android:contentDescription="@string/description_image_button_two"
+      	        />
+      	    <View 
+      	        android:layout_height="match_parent"
+      	        android:layout_width="1px"
+      	        android:background="@drawable/keyborad_bg_normal"/>
+      	     <ImageButton
+      	        android:id="@+id/three"
+      	        style="@style/DialPadButtonStyle"
+      	        android:src="@drawable/dial_keyborad_number_3_selector"
+      	        android:contentDescription="@string/description_image_button_three"
+      	        />
+      	</TableRow>
+      	
+      	<TableRow
+      	    android:layout_height="0px"
+      	    android:layout_weight="1">
+      	    <ImageButton 
+      	        android:id="@+id/four"
+      	        style="@style/DialPadButtonStyle"
+      	        android:src="@drawable/dial_keyborad_number_4_selector"
+      	        android:contentDescription="@string/description_image_button_four"
+      	        />
+      	    <View 
+      	        android:layout_height="match_parent"
+      	        android:layout_width="1px"
+      	        android:background="@drawable/keyborad_bg_normal"/>
+      	     <ImageButton 
+      	        android:id="@+id/five"
+      	        style="@style/DialPadButtonStyle"
+      	        android:src="@drawable/dial_keyborad_number_5_selector"
+      	        android:contentDescription="@string/description_image_button_five"
+      	        />
+      	    <View 
+      	        android:layout_height="match_parent"
+      	        android:layout_width="1px"
+      	        android:background="@drawable/keyborad_bg_normal"/>
+      	     <ImageButton
+      	        android:id="@+id/six"
+      	        style="@style/DialPadButtonStyle"
+      	        android:src="@drawable/dial_keyborad_number_6_selector"
+      	        android:contentDescription="@string/description_image_button_six"
+      	        />
+      	</TableRow>
+      	
+      	<TableRow
+      	    android:layout_height="0px"
+      	    android:layout_weight="1">
+      	    <ImageButton 
+      	        android:id="@+id/seven"
+      	        style="@style/DialPadButtonStyle"
+      	        android:src="@drawable/dial_keyborad_number_7_selector"
+      	        android:contentDescription="@string/description_image_button_four"
+      	        />
+      	    <View 
+      	        android:layout_height="match_parent"
+      	        android:layout_width="1px"
+      	        android:background="@drawable/keyborad_bg_normal"/>
+      	     <ImageButton 
+      	        android:id="@+id/eight"
+      	        style="@style/DialPadButtonStyle"
+      	        android:src="@drawable/dial_keyborad_number_8_selector"
+      	        android:contentDescription="@string/description_image_button_five"
+      	        />
+      	    <View 
+      	        android:layout_height="match_parent"
+      	        android:layout_width="1px"
+      	        android:background="@drawable/keyborad_bg_normal"/>
+      	     <ImageButton
+      	        android:id="@+id/nine"
+      	        style="@style/DialPadButtonStyle"
+      	        android:src="@drawable/dial_keyborad_number_9_selector"
+      	        android:contentDescription="@string/description_image_button_six"
+      	        />
+      	</TableRow>      	
+        
+    </TableLayout>
+<!--add by lichengfeng custom dialer view @20160411 end -->    
 
 </RelativeLayout>

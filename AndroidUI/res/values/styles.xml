@@ -16,5 +16,14 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+    
+<!--add by lichengfeng custom dialer view @20160411 begin -->        
+    <style name="DialPadButtonStyle">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">@dimen/dialpad_row_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/dial_num_bg</item>
+    </style>
+<!--add by lichengfeng custom dialer view @20160411 end -->    
 
 </resources>

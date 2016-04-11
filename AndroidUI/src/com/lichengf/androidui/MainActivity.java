@@ -3,8 +3,6 @@ package com.lichengf.androidui;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-import com.lichengf.simulatewechat.R;
-
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
